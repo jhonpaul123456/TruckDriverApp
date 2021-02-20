@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CrudAppProjectLcnoStrd">
-        <activity android:name=".activities.CreateUserActivity"></activity>
+        <activity android:name=".activities.FetchUsersActivity"></activity>
+        <activity android:name=".activities.CreateUserActivity" />
         <activity android:name=".activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
