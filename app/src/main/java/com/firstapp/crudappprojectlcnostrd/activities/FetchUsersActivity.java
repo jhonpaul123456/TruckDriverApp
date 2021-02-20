@@ -2,11 +2,10 @@ package com.firstapp.crudappprojectlcnostrd.activities;
 
 import android.os.Bundle;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import com.firstapp.crudappprojectlcnostrd.R;
+import com.firstapp.crudappprojectlcnostrd.parents.BigPapaActivity;
 
-public class FetchUsersActivity extends AppCompatActivity {
+public class FetchUsersActivity extends BigPapaActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

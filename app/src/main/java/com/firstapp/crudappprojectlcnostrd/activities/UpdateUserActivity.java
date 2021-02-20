@@ -2,11 +2,10 @@ package com.firstapp.crudappprojectlcnostrd.activities;
 
 import android.os.Bundle;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import com.firstapp.crudappprojectlcnostrd.R;
+import com.firstapp.crudappprojectlcnostrd.parents.BigPapaActivity;
 
-public class UpdateUserActivity extends AppCompatActivity {
+public class UpdateUserActivity extends BigPapaActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
