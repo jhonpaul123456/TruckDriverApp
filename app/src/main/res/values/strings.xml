@@ -2,6 +2,8 @@
     <string name="app_name">CrudAppProjectLcnoStrd</string>
     <string name="create">Create User</string>
     <string name="fetch_users">Fetch Users</string>
+    <string name="update_user">Update User</string>
+    <string name="delete_user">Delete User</string>
     <string name="driver_name">Driver Name</string>
     <string name="plate_number">Plate Number</string>
     <string name="truck_condition">Truck Condition</string>
@@ -15,4 +17,5 @@
     <string name="plate_number_formatted">Plate Number: %1$s</string>
     <string name="truck_condition_formatted">Truck Condition: %1$s</string>
     <string name="truck_type_formatted">Truck Type: %1$s</string>
+    <string name="id">ID</string>
 </resources>
