@@ -12,6 +12,16 @@
         android:layout_height="match_parent"
         tools:context=".activities.MainActivity">
 
+        <ImageView
+            android:id="@+id/truck_logo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_constraintBottom_toTopOf="@+id/createBtn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
         <Button
             android:id="@+id/createBtn"
             android:layout_width="wrap_content"
@@ -22,7 +32,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toBottomOf="@+id/truck_logo" />
 
         <Button
             android:id="@+id/fetchUser"
