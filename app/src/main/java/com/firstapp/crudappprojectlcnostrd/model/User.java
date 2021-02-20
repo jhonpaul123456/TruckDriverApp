@@ -6,6 +6,8 @@ public class User {
 
     private String status;
 
+    private int id;
+
     @SerializedName("driver_name")
     private String driverName;
 
@@ -22,6 +24,10 @@ public class User {
 
     public boolean isStatusSuccess() {
         return status.equals("success");
+    }
+
+    public int getId() {
+        return id;
     }
 
     public String getStatus() {
@@ -48,6 +54,7 @@ public class User {
     public String toString() {
         return "User{" +
                 "status='" + status + '\'' +
+                ", id=" + id +
                 ", driverName='" + driverName + '\'' +
                 ", plateNumber='" + plateNumber + '\'' +
                 ", truckCondition='" + truckCondition + '\'' +

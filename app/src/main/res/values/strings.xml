@@ -11,4 +11,8 @@
     <string name="please_enter_truck_condition">Please Enter truck condition</string>
     <string name="please_enter_truck_type">Please enter truck type</string>
     <string name="please_wait">Please Wait…</string>
+    <string name="driver_name_formatted">Driver Name: %1$s</string>
+    <string name="plate_number_formatted">Plate Number: %1$s</string>
+    <string name="truck_condition_formatted">Truck Condition: %1$s</string>
+    <string name="truck_type_formatted">Truck Type: %1$s</string>
 </resources>
