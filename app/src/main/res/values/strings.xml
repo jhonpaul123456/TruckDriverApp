@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">CrudAppProjectLcnoStrd</string>
+    <string name="create">Create User</string>
+    <string name="fetch_users">Fetch Users</string>
 </resources>
