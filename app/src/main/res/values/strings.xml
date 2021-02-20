@@ -2,4 +2,13 @@
     <string name="app_name">CrudAppProjectLcnoStrd</string>
     <string name="create">Create User</string>
     <string name="fetch_users">Fetch Users</string>
+    <string name="driver_name">Driver Name</string>
+    <string name="plate_number">Plate Number</string>
+    <string name="truck_condition">Truck Condition</string>
+    <string name="truck_type">Truck Type</string>
+    <string name="please_enter_driver_name">Please enter driver name</string>
+    <string name="please_enter_plate_number">Please Enter Plate Number</string>
+    <string name="please_enter_truck_condition">Please Enter truck condition</string>
+    <string name="please_enter_truck_type">Please enter truck type</string>
+    <string name="please_wait">Please Wait…</string>
 </resources>

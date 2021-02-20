@@ -1,5 +1,7 @@
 package com.firstapp.crudappprojectlcnostrd.parents;
 
+import android.view.View;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.firstapp.crudappprojectlcnostrd.network.RetroClient;
@@ -15,5 +17,17 @@ public class BigPapaActivity extends AppCompatActivity {
             mRetroClient = new RetroClient();
         }
         return mRetroClient.getRetrofit();
+    }
+
+    public void enableViews(View... views) {
+        for (View v : views) {
+            v.setEnabled(true);
+        }
+    }
+
+    public void disableViews(View... views) {
+        for (View v : views) {
+            v.setEnabled(false);
+        }
     }
 }
