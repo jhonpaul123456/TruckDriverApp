@@ -1,5 +1,6 @@
 package com.firstapp.crudappprojectlcnostrd.activities;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -18,19 +19,19 @@ public class MainActivity extends AppCompatActivity {
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
 
         binding.createBtn.setOnClickListener(v -> {
-
+            startActivity(new Intent(this, CreateUserActivity.class));
         });
 
         binding.deleteUser.setOnClickListener(v -> {
-
+            startActivity(new Intent(this, DeleteUserActivity.class));
         });
 
         binding.fetchUser.setOnClickListener(v -> {
-
+            startActivity(new Intent(this, FetchUsersActivity.class));
         });
 
         binding.updateUser.setOnClickListener(v -> {
-
+            startActivity(new Intent(this, UpdateUserActivity.class));
         });
 
     }
