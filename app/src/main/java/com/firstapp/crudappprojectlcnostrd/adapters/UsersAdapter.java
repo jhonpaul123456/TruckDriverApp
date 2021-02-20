@@ -31,7 +31,7 @@ public class UsersAdapter extends RecyclerView.Adapter<UsersAdapter.UserViewHold
 
     @Override
     public void onBindViewHolder(@NonNull UserViewHolder holder, int position) {
-        holder. binding.id.setText(users.get(position).getId());
+        holder. binding.id.setText(String.valueOf(users.get(position).getId()));
         holder.binding.driverName.setText(context.getResources().getString(R.string.driver_name_formatted, users.get(position).getDriverName()));
         holder.binding.plateNumber.setText(context.getResources().getString(R.string.plate_number_formatted, users.get(position).getPlateNumber()));
         holder.binding.truckCondition.setText(context.getResources().getString(R.string.truck_condition_formatted, users.get(position).getTruckCondition()));
