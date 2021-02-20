@@ -18,4 +18,5 @@
     <string name="truck_condition_formatted">Truck Condition: %1$s</string>
     <string name="truck_type_formatted">Truck Type: %1$s</string>
     <string name="id">ID</string>
+    <string name="please_enter_id">Please Enter ID</string>
 </resources>
