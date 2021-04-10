@@ -19,4 +19,21 @@
     <string name="truck_type_formatted">Truck Type: %1$s</string>
     <string name="id">ID</string>
     <string name="please_enter_id">Please Enter ID</string>
+    <string name="start">start</string>
+    <string name="register">Register</string>
+    <string name="create_account">Create Account</string>
+    <string name="logout">Logout</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="create_driver">Create Driver</string>
+    <string name="create_new_sg">Create New SG</string>
+    <string name="proceed">Proceed</string>
+    <string name="add_to_list">Add to List</string>
+    <string name="add_new_truck">Add New Truck</string>
+    <string name="fetch_truck_list">Fetch Truck List</string>
+    <string name="update_truck_list">Update Truck List</string>
+    <string name="delete_truck">Delete Truck</string>
+    <string name="update_truck_info">Update Truck Info</string>
+    <string name="inserted_at">inserted at</string>
 </resources>

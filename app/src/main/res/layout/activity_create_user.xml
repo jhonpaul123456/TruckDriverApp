@@ -49,14 +49,24 @@
             android:layout_marginRight="8dp"
             android:hint="@string/truck_type" />
 
-        <Button
-            android:id="@+id/createUserBtn"
+        <EditText
+            android:id="@+id/inserted_at"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginRight="8dp"
-            android:text="@string/create" />
+            android:hint="@string/inserted_at" />
+
+        <Button
+            android:id="@+id/createUserBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="8dp"
+            android:text="@string/add_to_list" />
 
     </LinearLayout>
 </layout>

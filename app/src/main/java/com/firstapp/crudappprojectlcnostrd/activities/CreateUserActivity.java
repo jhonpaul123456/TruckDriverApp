@@ -35,20 +35,21 @@ public class CreateUserActivity extends BigPapaActivity {
                         binding.driverName.getText().toString().trim(),
                         binding.plateNumber.getText().toString().trim(),
                         binding.truckCondition.getText().toString().trim(),
-                        binding.truckType.getText().toString().trim()
+                        binding.truckType.getText().toString().trim(),
+                        binding.insertedAt.getText().toString().trim()
                         );
             }
         });
     }
 
     // This works asynchronously
-    private void createUser(String driverName, String plateNumber, String truckCondition, String truckType) {
+    private void createUser(String driverName, String plateNumber, String truckCondition, String truckType, String insertedAt) {
         Toast.makeText(this, R.string.please_wait, Toast.LENGTH_SHORT).show();
-        disableViews(binding.driverName, binding.truckCondition, binding.plateNumber, binding.truckType, binding.createUserBtn);
-        mCreateUserService.createUser(driverName, plateNumber, truckCondition, truckType).enqueue(new Callback<User>() {
+        disableViews(binding.driverName, binding.truckCondition, binding.plateNumber, binding.truckType, binding.insertedAt, binding.createUserBtn);
+        mCreateUserService.createUser(driverName, plateNumber, truckCondition, truckType, insertedAt).enqueue(new Callback<User>() {
             @Override
             public void onResponse(@NonNull Call<User> call, @NonNull Response<User> response) {
-                enableViews(binding.driverName, binding.truckCondition, binding.plateNumber, binding.truckType, binding.createUserBtn);
+                enableViews(binding.driverName, binding.truckCondition, binding.plateNumber, binding.truckType, binding.insertedAt, binding.createUserBtn);
                 Toast.makeText(CreateUserActivity.this, "User Created !", Toast.LENGTH_SHORT).show();
                 finish();
                 startActivity(new Intent(CreateUserActivity.this, FetchUsersActivity.class));
@@ -56,7 +57,7 @@ public class CreateUserActivity extends BigPapaActivity {
 
             @Override
             public void onFailure(@NonNull Call<User> call, @NonNull Throwable t) {
-                enableViews(binding.driverName, binding.truckCondition, binding.plateNumber, binding.truckType, binding.createUserBtn);
+                enableViews(binding.driverName, binding.truckCondition, binding.plateNumber, binding.truckType, binding.insertedAt, binding.createUserBtn);
                 t.printStackTrace();
                 Toast.makeText(CreateUserActivity.this, "Something Went Wrong !", Toast.LENGTH_SHORT).show();
             }
@@ -77,11 +78,15 @@ public class CreateUserActivity extends BigPapaActivity {
         } else if (binding.truckType.getText().toString().trim().isEmpty()) {
             binding.truckType.setError(getString(R.string.please_enter_truck_type));
             binding.truckType.requestFocus();
-        } else {
+        } else if (binding.insertedAt.getText().toString().trim().isEmpty()){
+            binding.insertedAt.setError("Please Enter Date");
+            binding.insertedAt.requestFocus();
+        }else {
             binding.driverName.setError(null);
             binding.plateNumber.setError(null);
             binding.truckCondition.setError(null);
             binding.truckType.setError(null);
+            binding.insertedAt.setError(null);
             pass = true;
         }
         return pass;

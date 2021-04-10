@@ -14,6 +14,8 @@ public interface CreateUserService {
             @Field("driver_name") String driverName,
             @Field("plate_number") String plateNumber,
             @Field("truck_condition") String condition,
-            @Field("truck_type") String truck_type
-    );
+            @Field("truck_type") String truck_type,
+            @Field("inserted_at") String inserted_at
+
+            );
 }
