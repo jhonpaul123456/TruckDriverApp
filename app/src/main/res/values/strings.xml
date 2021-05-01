@@ -12,11 +12,30 @@
     <string name="please_enter_plate_number">Please Enter Plate Number</string>
     <string name="please_enter_truck_condition">Please Enter truck condition</string>
     <string name="please_enter_truck_type">Please enter truck type</string>
+    <string name="please_enter_customers_name">Please enter customers name</string>
+    <string name="please_enter_customers_number">Please enter customers mobile no.</string>
+    <string name="please_enter_customers_street">Please enter customers street</string>
+    <string name="date_to_deliver">Date to deliver</string>
+    <string name="please_enter_total">Please enter total</string>
+    <string name="paid_or_not">Paid or not</string>
     <string name="please_wait">Please Wait…</string>
+
     <string name="driver_name_formatted">Driver Name: %1$s</string>
     <string name="plate_number_formatted">Plate Number: %1$s</string>
     <string name="truck_condition_formatted">Truck Condition: %1$s</string>
     <string name="truck_type_formatted">Truck Type: %1$s</string>
+    <string name="inserted_at_formatted">Inserted At: %1$s</string>
+    <string name="entered_in_formatted">Entered In: %1$s</string>
+    <string name="truck_cargo_formatted">Truck Cargo: %1$s</string>
+
+
+    <string name="name_formatted">Customer Name: %1$s</string>
+    <string name="mobile_formatted">Mobile No: %1$s</string>
+    <string name="street_formatted">Street to Deliver: %1$s</string>
+    <string name="total_formatted">Total: %1$s</string>
+    <string name="dates_formatted">Date to Deliver: %1$s</string>
+    <string name="status_formatted">Paid or Not: %1$s</string>
+    <string name="paid_formatted">Paid</string>
     <string name="id">ID</string>
     <string name="please_enter_id">Please Enter ID</string>
     <string name="start">start</string>
@@ -36,4 +55,23 @@
     <string name="delete_truck">Delete Truck</string>
     <string name="update_truck_info">Update Truck Info</string>
     <string name="inserted_at">inserted at</string>
+    <string name="entered_in">Entered In</string>
+    <string name="truck_cargo">Truck Cargo</string>
+    <string name="date_inserted">Date Inserted</string>
+    <string name="date">Date</string>
+    <string name="update_list">Update List</string>
+    <string name="delete_list">Delete List</string>
+    <string name="name">name</string>
+    <string name="mobile">mobile</string>
+    <string name="street">street</string>
+    <string name="total">total</string>
+    <string name="dates">dates</string>
+    <string name="status">status</string>
+    <string name="add_customer">add customer</string>
+    <string name="add_record">Add record</string>
+    <string name="customers_name">Customers name</string>
+    <string name="mobile_no">Mobile No</string>
+
+
+
 </resources>

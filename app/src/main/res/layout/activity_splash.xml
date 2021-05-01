@@ -14,8 +14,8 @@
 
         <ImageView
             android:id="@+id/truck_logo"
-            android:layout_width="200dp"
-            android:layout_height="150dp"
+            android:layout_width="400dp"
+            android:layout_height="250dp"
             android:layout_marginBottom="8dp"
             app:layout_constraintBottom_toTopOf="@+id/start_btn"
             app:layout_constraintEnd_toEndOf="parent"
@@ -26,8 +26,8 @@
 
         <Button
             android:id="@+id/start_btn"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_width="400dp"
+            android:layout_height="80dp"
             android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
             android:layout_marginEnd="8dp"

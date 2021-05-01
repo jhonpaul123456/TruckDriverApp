@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.firstapp.crudappprojectlcnostrd">
+    package="com.wabinggatrackerapp.trackerapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -12,26 +12,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CrudAppProjectLcnoStrd"
         android:usesCleartextTraffic="true">
-        <activity android:name=".activities.auth.RegistrationActivity">
+        <activity android:name="com.wabinggatrackerapp.trackerapp.activities.auth.RegistrationActivity">
             <!--<intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>-->
         </activity>
-        <activity android:name=".activities.auth.LoginActivity" />
-        <activity android:name=".activities.SplashActivity">
+        <activity android:name="com.wabinggatrackerapp.trackerapp.activities.auth.LoginActivity" />
+        <activity android:name="com.wabinggatrackerapp.trackerapp.activities.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.DeleteUserActivity" />
-        <activity android:name=".activities.UpdateUserActivity" />
-        <activity android:name=".activities.FetchUsersActivity" />
-        <activity android:name=".activities.CreateUserActivity" />
-        <activity android:name=".activities.MainActivity" />
+        <activity android:name="com.wabinggatrackerapp.trackerapp.activities.DeleteUserActivity" />
+        <activity android:name="com.wabinggatrackerapp.trackerapp.activities.UpdateUserActivity" />
+        <activity android:name="com.wabinggatrackerapp.trackerapp.activities.FetchUsersActivity" />
+        <activity android:name="com.wabinggatrackerapp.trackerapp.activities.CreateUserActivity" />
+        <activity android:name="com.wabinggatrackerapp.trackerapp.activities.MainActivity" />
     </application>
 
 </manifest>

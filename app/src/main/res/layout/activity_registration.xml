@@ -19,7 +19,7 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:hint="@string/username"
-            app:layout_constraintBottom_toTopOf="@+id/pasword"
+            app:layout_constraintBottom_toTopOf="@+id/password"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
@@ -28,7 +28,7 @@
             app:layout_constraintVertical_chainStyle="packed" />
 
         <EditText
-            android:id="@+id/pasword"
+            android:id="@+id/password"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
@@ -43,15 +43,15 @@
 
         <Button
             android:id="@+id/register_btn"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
             android:layout_marginTop="8dp"
             android:text="@string/proceed"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="@+id/pasword"
+            app:layout_constraintEnd_toEndOf="@+id/password"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="@+id/pasword"
-            app:layout_constraintTop_toBottomOf="@+id/pasword" />
+            app:layout_constraintStart_toStartOf="@+id/password"
+            app:layout_constraintTop_toBottomOf="@+id/password" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

@@ -14,59 +14,73 @@
         tools:context=".activities.CreateUserActivity">
 
         <EditText
-            android:id="@+id/driver_name"
+            android:id="@+id/name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginRight="8dp"
-            android:hint="@string/driver_name" />
+            android:hint="@string/name" />
 
         <EditText
-            android:id="@+id/plate_number"
+            android:id="@+id/mobile"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginRight="8dp"
-            android:hint="@string/plate_number" />
+            android:hint="@string/mobile" />
 
         <EditText
-            android:id="@+id/truck_condition"
+            android:id="@+id/street"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginRight="8dp"
-            android:hint="@string/truck_condition" />
+            android:hint="@string/street" />
 
         <EditText
-            android:id="@+id/truck_type"
+            android:id="@+id/total"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginRight="8dp"
-            android:hint="@string/truck_type" />
+            android:hint="@string/total" />
 
         <EditText
-            android:id="@+id/inserted_at"
+            android:id="@+id/dates"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginRight="8dp"
-            android:hint="@string/inserted_at" />
+            android:hint="@string/dates" />
+
+
+        <EditText
+            android:id="@+id/status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:hint="@string/status" />
+
+
+
+
 
         <Button
             android:id="@+id/createUserBtn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
             android:textColor="@android:color/white"
-            android:layout_marginLeft="8dp"
+            android:layout_marginLeft="60dp"
             android:layout_marginTop="32dp"
-            android:layout_marginRight="8dp"
-            android:text="@string/add_to_list" />
+            android:layout_marginRight="30dp"
+            android:text="@string/add_customer" />
 
     </LinearLayout>
 </layout>

@@ -23,40 +23,60 @@
             android:hint="@string/id" />
 
         <EditText
-            android:id="@+id/driver_name"
+            android:id="@+id/name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginRight="8dp"
-            android:hint="@string/driver_name" />
+            android:hint="@string/customers_name" />
 
         <EditText
-            android:id="@+id/plate_number"
+            android:id="@+id/mobile"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginRight="8dp"
-            android:hint="@string/plate_number" />
+            android:hint="@string/mobile_no" />
 
         <EditText
-            android:id="@+id/truck_condition"
+            android:id="@+id/street"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginRight="8dp"
-            android:hint="@string/truck_condition" />
+            android:hint="@string/street" />
 
         <EditText
-            android:id="@+id/truck_type"
+            android:id="@+id/total"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginRight="8dp"
-            android:hint="@string/truck_type" />
+            android:hint="@string/total" />
+
+        <EditText
+            android:id="@+id/dates"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:hint="@string/date_to_deliver" />
+
+        <EditText
+            android:id="@+id/status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:hint="@string/status" />
+
+
 
         <Button
             android:id="@+id/updateUserBtn"
@@ -65,7 +85,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginRight="8dp"
-            android:text="@string/update_user" />
+            android:text="@string/update_list" />
 
     </LinearLayout>
 </layout>
