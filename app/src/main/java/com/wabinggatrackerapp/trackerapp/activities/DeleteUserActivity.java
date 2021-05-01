@@ -37,7 +37,7 @@ public class DeleteUserActivity extends BigPapaActivity {
                 mDeleteUserService.deleteUser(binding.id.getText().toString().trim()).enqueue(new Callback<Shizuka>() {
                     @Override
                     public void onResponse(Call<Shizuka> call, Response<Shizuka> response) {
-                        if (response.body().isStatusSuccess()) {
+                        if (response.isSuccessful()) {
                             startActivity(new Intent(DeleteUserActivity.this, FetchUsersActivity.class));
                             Toast.makeText(DeleteUserActivity.this, "Successfully Deleted !", Toast.LENGTH_SHORT).show();
                             finish();
